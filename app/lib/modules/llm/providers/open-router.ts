@@ -45,6 +45,12 @@ export default class OpenRouterProvider extends BaseProvider {
       provider: 'OpenRouter',
       maxTokenAllowed: 8000,
     },
+     {
+      name: 'deepseek/deepseek-r1',
+      label: 'DeepSeek R1 (OpenRouter)',
+      provider: 'OpenRouter',
+      maxTokenAllowed: 8000,
+    },
     {
       name: 'google/gemini-flash-1.5',
       label: 'Google Gemini Flash 1.5 (OpenRouter)',
